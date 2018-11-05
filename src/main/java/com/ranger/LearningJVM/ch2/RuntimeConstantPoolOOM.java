@@ -3,8 +3,11 @@ package com.ranger.LearningJVM.ch2;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * -XX:MetaspaceSize=10M -XX:MaxMetaspaceSize=10M
+ */
 public class RuntimeConstantPoolOOM {
-//    // 以下测试只能在JDK1.6中，输入参数为-XX:PermSize=2M -XX:MaxPermSize=2M, JDK1.8中这两个参数已经被移除，另外，1.8中不会有异常抛出
+//    // 以下测试只能在JDK1.6中，输入参数为-XX:PermSize=10M -XX:MaxPermSize=10M, JDK1.8中这两个参数已经被移除，另外，1.8中不会有异常抛出
 //    public static void main(String[] args) {
 //        // 使用List保持着常量池引用，避免Full GC回收常量池行为
 //        List<String> list = new ArrayList<>();

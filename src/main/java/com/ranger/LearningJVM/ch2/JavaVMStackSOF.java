@@ -1,5 +1,8 @@
 package com.ranger.LearningJVM.ch2;
 
+/**
+ * -Xss128k
+ */
 public class JavaVMStackSOF {
     private int stackLength = 1;
 

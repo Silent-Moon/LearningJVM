@@ -1,5 +1,8 @@
 package com.ranger.LearningJVM.ch2;
 
+/**
+ * -XX:MetaspaceSize=10M -XX:MaxMetaspaceSize=10M
+ */
 public class JavaVMStackOOM {
     private void dontStop() {
         while (true) {

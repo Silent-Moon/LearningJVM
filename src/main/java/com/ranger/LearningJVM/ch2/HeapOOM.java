@@ -3,6 +3,9 @@ package com.ranger.LearningJVM.ch2;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+ */
 public class HeapOOM {
     static class OOMObject {
 

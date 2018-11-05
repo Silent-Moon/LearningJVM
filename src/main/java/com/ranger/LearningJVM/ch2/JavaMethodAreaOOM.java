@@ -3,6 +3,9 @@ package com.ranger.LearningJVM.ch2;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 
+/**
+ * -XX:MetaspaceSize=10M -XX:MaxMetaspaceSize=10M
+ */
 public class JavaMethodAreaOOM {
     public static void main(String[] args) {
         while (true) {
